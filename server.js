@@ -7,7 +7,7 @@ const morgan = require('morgan')
 const express = require('express')
 const Promise = require('bluebird')
 const mongoose = require('mongoose')
-const debug = require('debug')('slugram:sever')
+const debug = require('debug')('slugram:server')
 
 // app modules
 const picRouter = require('./route/pic-router.js')
